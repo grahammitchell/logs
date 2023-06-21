@@ -1,0 +1,104 @@
+2023-06-20 18:58:33 daemon INFO: Starting daemon
+2023-06-20 18:58:33 daemon DEBUG: Environment:
+{'COMMAND_MODE': 'unix2003',
+ 'HOME': '/Users/gmitchell',
+ 'LC_CTYPE': 'UTF-8',
+ 'LOGNAME': 'gmitchell',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PYTHONOPTIMIZE': '2',
+ 'SHELL': '/bin/zsh',
+ 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.Ba4lcNFC7j/Listeners',
+ 'TMPDIR': '/var/folders/25/q0_q4sw56775sshvlft9crf00000gn/T/',
+ 'TOGA_BACKEND': 'maestral_cocoa.private.implementation.cocoa',
+ 'USER': 'gmitchell',
+ 'XPC_FLAGS': '0x0',
+ 'XPC_SERVICE_NAME': 'application.com.samschott.maestral.14411680.14411866',
+ '__CFBundleIdentifier': 'com.samschott.maestral',
+ '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'}
+2023-06-20 18:58:33 daemon DEBUG: Acquired daemon lock: '/Users/gmitchell/Library/Application Support/maestral/maestral.lock'
+2023-06-20 18:58:33 daemon DEBUG: Integrating with CFEventLoop
+2023-06-20 18:58:33 daemon DEBUG: Socket path: '/Users/gmitchell/Library/Application Support/maestral/maestral.sock'
+2023-06-20 18:58:33 daemon DEBUG: Creating Pyro daemon
+2023-06-20 18:58:33 sync DEBUG: Could not load mignore rules: No such file or directory
+2023-06-20 18:58:33 daemon DEBUG: Starting event loop
+2023-06-20 18:58:33 manager INFO: Connected
+2023-06-20 18:58:33 keyring DEBUG: Using keyring: keyring.backends.macOS.Keyring (priority: 5)
+2023-06-20 18:58:34 sync DEBUG: Could not load mignore rules: No such file or directory
+2023-06-20 18:58:34 dropbox_client DEBUG: Refreshing access token.
+2023-06-20 18:58:34 dropbox_client DEBUG: Request to users/get_space_usage
+2023-06-20 18:58:34 manager DEBUG: Checking path root...
+2023-06-20 18:58:34 dropbox_client DEBUG: Request to users/get_current_account
+2023-06-20 18:58:34 dropbox_client DEBUG: Request to users/get_current_account
+2023-06-20 18:58:34 manager DEBUG: Path root is up to date
+2023-06-20 18:58:34 sync INFO: Fetching remote changes
+2023-06-20 18:58:34 sync DEBUG: Fetching remote changes since cursor: AAE9CJBS3GlKUXqLQaRBCQWEn8OQ6vtyPYOlvKwiffs1rx71PQB8ReP659T7V0DFjMVGA94IJG4HygDKwykCEezXel8UhyupGt6hExYlDgCRE3sUsUFw0MzT_zLKZRsn3iMPk4DaZGi-j5UTZy0yAUWrFTvCFHbbbjizAWkVT5ITaD9QKOWQJYzyQOCfTbxNbLoxlMVSVSjqRx4lY2iSEdZX_9XErdzJN5woTxvorK4vP0wde13TpicJd6ymiHYQbNzApmo_MKt_HmpmqgmTsoa1gnBqRVkZN-OFN8W5LkASw0hQOG8Ip-UAibK09fOL1nLoPIT473BdWXCcfs3FzBMzq-wgqvs5vpvtv-LQWqZNm5fiJ7qVLX3D_0_txtn4nKGC1B-jNOcLZPMr5V_JfYpcE3riXrq412OUOUS2qeYJ6Pf9Dsfs8t2cPZfSdH-6AhZMHyr_FfgDszOxI0qivM753b2HRsEp0_abnITTRj4wJWv9Xu7x-1cJK5b29QZb4bC49Tm34y6XUmKEbxph51AE3kDiW2_SwKPP7lZGE3_iaP1JxFDtTP8ebEzmgq7yfYhnvzussyh9vxZCq5h-Qi6fpZm0mIb3GUb42PsBfcd1v8z5l-kHaJuL-bqWbc4Bucc
+2023-06-20 18:58:34 dropbox_client DEBUG: Refreshing access token.
+2023-06-20 18:58:34 dropbox_client DEBUG: Request to files/list_folder/continue
+2023-06-20 18:58:34 sync DEBUG: Remote changes:
+[]
+2023-06-20 18:58:34 sync DEBUG: Converted remote changes to SyncEvents
+2023-06-20 18:58:34 sync DEBUG: Remote cursor saved: AAF0tx6MT3VxriohdUOtSH4JaJPYEAOIG6Mbswi_IYsezDnZWe5rHUhJv7xdNXTBYMXQDAX5yUA3rDfYR_X87lzKM9z3Hq2bYAbIaORULWWjrkPDZ_5ynDVQoGjSIzeyIjZTxoyXn2sV2qp-_QC-owKMOFqzZgZic7o9IX5aOZmMGp3BCF1wOHTBaYSX_7tBvrDYcyCBAOXtIXZjkFsKxb0d4kWSYacLNUwMTguL-tIZMdyK_24Jbd76nE6M0f4uuT2ks0KmW-1zB49Z-9mDIMKIcDbOZP8tUdIqze2X15Kf0nAVXBb7FgvnMxEPDuL--kushrp2ELmv3BQ69xoB1r7o-_pS-pO1U8wXTXd2C0PHZn2pfNTkGpR_OT8-AitBLCesnhUrcut5JdQWyS5KKkB-e2VxpdvHtSvRgui8h-x0Is7ofS2B3Z-TLCaDgQ6x2i2avSgQ3qg0v4HdKY6-Fh5zbh2BWVVcOq5LIgJy7VJyoT0nCDoMfAf6zl_4bK_4czA6z62CIg99VRv9oFNc2Lg9SZcLeVzNp-GWY-wtNT7GkLZWSNdbs13KR9CJV7CUM60jsO92xh6aHdC4wwTrIbVut28zCv5vBZLKoJ-pYcZuDFP_-EFYLBqFzL2HuI0Z72Q
+2023-06-20 18:58:34 sync DEBUG: Pruning sync errors
+2023-06-20 18:58:34 sync INFO: Indexing local changes...
+2023-06-20 18:59:29 sync DEBUG: Local indexing completed in 54.6821 sec
+2023-06-20 18:59:29 sync DEBUG: Retrieved local changes:
+[<FileCreatedEvent: event_type=created, src_path='/Users/gmitchell/Dropbox/music/secular/Oye Cómo Va.odt', is_directory=False>,
+ <FileDeletedEvent: event_type=deleted, src_path='/Users/gmitchell/Dropbox/music/secular/Oye Cómo Va.odt', is_directory=False>]
+2023-06-20 18:59:29 sync DEBUG: Filtered deleted events:
+[<SyncEvent(direction=SyncDirection.Up, change_type=ChangeType.Removed, item_type=ItemType.File, dbx_path=/music/secular/Oye Cómo Va.odt)>]
+2023-06-20 18:59:29 sync DEBUG: Filtered dir moved events:
+[]
+2023-06-20 18:59:29 sync DEBUG: Filtered other events:
+defaultdict(<class 'list'>,
+            {3: [<SyncEvent(direction=SyncDirection.Up, change_type=ChangeType.Modified, item_type=ItemType.File, dbx_path=/music/secular/Oye Cómo Va.odt)>]})
+2023-06-20 18:59:29 sync INFO: Uploading deletions...
+2023-06-20 18:59:29 dropbox_client DEBUG: Request to files/get_metadata
+2023-06-20 18:59:29 dropbox_client DEBUG: Request to files/delete_v2
+2023-06-20 18:59:31 sync INFO: Deleting 1/1
+2023-06-20 18:59:31 dropbox_client DEBUG: Request to files/get_metadata
+2023-06-20 18:59:31 dropbox_client DEBUG: Request to files/upload
+2023-06-20 18:59:32 sync DEBUG: Created "/music/secular/Oye Cómo Va.odt" on Dropbox
+2023-06-20 18:59:32 sync INFO: Syncing ↑ 1/1
+2023-06-20 18:59:32 sync DEBUG: Uploaded local changes while inactive
+2023-06-20 18:59:32 sync DEBUG: Local cursor saved: 1687305514.954518
+2023-06-20 18:59:32 manager INFO: Up to date
+2023-06-20 18:59:32 sync DEBUG: Waiting for local changes since cursor: 1687305514.954518
+2023-06-20 18:59:32 sync DEBUG: Waiting for remote changes since cursor:
+AAF0tx6MT3VxriohdUOtSH4JaJPYEAOIG6Mbswi_IYsezDnZWe5rHUhJv7xdNXTBYMXQDAX5yUA3rDfYR_X87lzKM9z3Hq2bYAbIaORULWWjrkPDZ_5ynDVQoGjSIzeyIjZTxoyXn2sV2qp-_QC-owKMOFqzZgZic7o9IX5aOZmMGp3BCF1wOHTBaYSX_7tBvrDYcyCBAOXtIXZjkFsKxb0d4kWSYacLNUwMTguL-tIZMdyK_24Jbd76nE6M0f4uuT2ks0KmW-1zB49Z-9mDIMKIcDbOZP8tUdIqze2X15Kf0nAVXBb7FgvnMxEPDuL--kushrp2ELmv3BQ69xoB1r7o-_pS-pO1U8wXTXd2C0PHZn2pfNTkGpR_OT8-AitBLCesnhUrcut5JdQWyS5KKkB-e2VxpdvHtSvRgui8h-x0Is7ofS2B3Z-TLCaDgQ6x2i2avSgQ3qg0v4HdKY6-Fh5zbh2BWVVcOq5LIgJy7VJyoT0nCDoMfAf6zl_4bK_4czA6z62CIg99VRv9oFNc2Lg9SZcLeVzNp-GWY-wtNT7GkLZWSNdbs13KR9CJV7CUM60jsO92xh6aHdC4wwTrIbVut28zCv5vBZLKoJ-pYcZuDFP_-EFYLBqFzL2HuI0Z72Q
+2023-06-20 18:59:32 dropbox_client DEBUG: Request to files/list_folder/longpoll
+2023-06-20 18:59:34 sync DEBUG: Detected remote changes: True
+2023-06-20 18:59:34 manager DEBUG: Checking path root...
+2023-06-20 18:59:34 dropbox_client DEBUG: Request to users/get_current_account
+2023-06-20 18:59:35 manager DEBUG: Path root is up to date
+2023-06-20 18:59:35 manager INFO: Syncing...
+2023-06-20 18:59:35 sync INFO: Fetching remote changes
+2023-06-20 18:59:35 sync DEBUG: Fetching remote changes since cursor: AAF0tx6MT3VxriohdUOtSH4JaJPYEAOIG6Mbswi_IYsezDnZWe5rHUhJv7xdNXTBYMXQDAX5yUA3rDfYR_X87lzKM9z3Hq2bYAbIaORULWWjrkPDZ_5ynDVQoGjSIzeyIjZTxoyXn2sV2qp-_QC-owKMOFqzZgZic7o9IX5aOZmMGp3BCF1wOHTBaYSX_7tBvrDYcyCBAOXtIXZjkFsKxb0d4kWSYacLNUwMTguL-tIZMdyK_24Jbd76nE6M0f4uuT2ks0KmW-1zB49Z-9mDIMKIcDbOZP8tUdIqze2X15Kf0nAVXBb7FgvnMxEPDuL--kushrp2ELmv3BQ69xoB1r7o-_pS-pO1U8wXTXd2C0PHZn2pfNTkGpR_OT8-AitBLCesnhUrcut5JdQWyS5KKkB-e2VxpdvHtSvRgui8h-x0Is7ofS2B3Z-TLCaDgQ6x2i2avSgQ3qg0v4HdKY6-Fh5zbh2BWVVcOq5LIgJy7VJyoT0nCDoMfAf6zl_4bK_4czA6z62CIg99VRv9oFNc2Lg9SZcLeVzNp-GWY-wtNT7GkLZWSNdbs13KR9CJV7CUM60jsO92xh6aHdC4wwTrIbVut28zCv5vBZLKoJ-pYcZuDFP_-EFYLBqFzL2HuI0Z72Q
+2023-06-20 18:59:35 dropbox_client DEBUG: Request to files/list_folder/continue
+2023-06-20 18:59:35 sync DEBUG: Remote changes:
+[FileMetadata(name='Oye Cómo Va.odt',
+              path_lower='/music/secular/oye cómo va.odt',
+              path_display='/music/secular/Oye Cómo Va.odt',
+              id='id:RbiJGA736JAAAAAAAAADNQ',
+              client_modified=datetime.datetime(2022, 3, 3, 4, 12, 4, tzinfo=datetime.timezone.utc),
+              server_modified=datetime.datetime(2023, 6, 20, 23, 59, 32, tzinfo=datetime.timezone.utc),
+              rev='5fe987145dbf148bf1eff',
+              size=12081,
+              symlink_target=None,
+              shared=True,
+              modified_by='dbid:AAD_mSKsY4AUN-m07fyH3Mj0vd2FHQvEuUY',
+              is_downloadable=True,
+              content_hash='8a7115012f14042edb9c5e8ecf8e67bfc2b56257c59c13122b3a7ebc8a15e1bd')]
+2023-06-20 18:59:35 sync DEBUG: Converted remote changes to SyncEvents
+2023-06-20 18:59:35 sync INFO: Indexing 1...
+2023-06-20 18:59:35 sync DEBUG: Equal revs for "/music/secular/Oye Cómo Va.odt": local item is the same or newer than on Dropbox
+2023-06-20 18:59:35 sync INFO: Syncing ↓ 1/1
+2023-06-20 18:59:35 sync DEBUG: Remote cursor saved: AAHaRZXSpVt5Tu-EZHZpaAiaMAhqjC5UIW94AMLoG3fYBDiP8jpJlPaORV2_9aXQDJDjKnjyWWTNb9WhEanr0VkvVutxuJHDmeePl_CIjpd0Ie5uUQzPLJz2GBAfoHgjZi-6EZGbcTALfrncEnzgewHeCh_IMyj1L5b71qYwJRm1UH8oOAiemgsjz9WYQLnXhML1FsTH5snwAbL1_4xZP6OJL-Cv5zd9TJ2eCi2dcuv6wWbIPB8TQ1Y_fi2ujIhNfjsZpiZT8ax2_WV_BLCIoiG8HVij67Tj_Gs-GfoPuW1b5l12tNeQVCc0Bti25Y2U-WY9f8Onoof0pj3WSLhGncZla-QkelRUkuIGHLVJHhOZsVHy7kMw-wdJicmd9sbXwwrC-HbSq3m8LX-EqT_SPPL6BNWcUUKxpwKVJER0kCGNI2pHr2gq8vGK_hA_ZCsASs2r0ovf_iQuTUav-z0htnOnFyicIsSVgJLdqSOl4rMA8-nE6oW5SSCbsoR-HjH9vBUB9O63dv-vwywp3omv5UU5h6yC5jQ3BKDM80FNn4wKsocuwQJnI7kZPz2v8Hcrz9wN7g3qDBkhaz3hK0g-09sB_GJ0xL8KOkbrYXMvCsc4cKX5mccQy4799DnWAkvMtIw
+2023-06-20 18:59:35 sync INFO: Up to date
+2023-06-20 18:59:35 manager INFO: Up to date
+2023-06-20 18:59:35 dropbox_client DEBUG: Request to users/get_space_usage
+2023-06-20 18:59:35 sync DEBUG: Waiting for remote changes since cursor:
+AAHaRZXSpVt5Tu-EZHZpaAiaMAhqjC5UIW94AMLoG3fYBDiP8jpJlPaORV2_9aXQDJDjKnjyWWTNb9WhEanr0VkvVutxuJHDmeePl_CIjpd0Ie5uUQzPLJz2GBAfoHgjZi-6EZGbcTALfrncEnzgewHeCh_IMyj1L5b71qYwJRm1UH8oOAiemgsjz9WYQLnXhML1FsTH5snwAbL1_4xZP6OJL-Cv5zd9TJ2eCi2dcuv6wWbIPB8TQ1Y_fi2ujIhNfjsZpiZT8ax2_WV_BLCIoiG8HVij67Tj_Gs-GfoPuW1b5l12tNeQVCc0Bti25Y2U-WY9f8Onoof0pj3WSLhGncZla-QkelRUkuIGHLVJHhOZsVHy7kMw-wdJicmd9sbXwwrC-HbSq3m8LX-EqT_SPPL6BNWcUUKxpwKVJER0kCGNI2pHr2gq8vGK_hA_ZCsASs2r0ovf_iQuTUav-z0htnOnFyicIsSVgJLdqSOl4rMA8-nE6oW5SSCbsoR-HjH9vBUB9O63dv-vwywp3omv5UU5h6yC5jQ3BKDM80FNn4wKsocuwQJnI7kZPz2v8Hcrz9wN7g3qDBkhaz3hK0g-09sB_GJ0xL8KOkbrYXMvCsc4cKX5mccQy4799DnWAkvMtIw
+2023-06-20 18:59:35 dropbox_client DEBUG: Request to files/list_folder/longpoll
+2023-06-20 18:59:40 manager INFO: Shutting down threads...
+2023-06-20 18:59:40 sync INFO: Sync aborted
+2023-06-20 18:59:40 manager INFO: Paused
